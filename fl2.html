@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<title> Ask Username </title>
+<body>
+
+<script>
+
+var name;
+let last="";
+let first="";
+
+name = prompt("Username:");
+
+for (let i = 0;i<name.length;i++){
+
+if (name[i] == ","){
+
+  break;
+
+} else {
+  last += name[i];
+}
+}
+
+for (let j= last.length+1;j<name.length;j++){
+
+if (name[j] == ","){
+
+  break;
+
+} else {
+  first += name[j];
+}
+
+}
+
+document.write("Hello "+ first + " "+ last);
+</script>
+
+</body>
+</html>

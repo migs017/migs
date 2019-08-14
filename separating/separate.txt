@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+<title> separate 
+</title>
+<body>
+
+<form id="form1">
+First Name: <input name="first" type="text"> <br>
+Last Name: <input name="last" type="text">
+</form>
+
+<button onclick="outputname()">OK</button>
+
+
+<script src="sep.js"> </script>
+
+</body>
+</html>
